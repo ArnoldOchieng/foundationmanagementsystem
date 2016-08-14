@@ -1,0 +1,30 @@
+C:\Users\MBITA CDF\Desktop\Pythonapps\Foundation\FoundationSABP\FoundationSABP3\FoundationSABP3\bin\Microsoft.PythonTools.WebRole.dll
+C:\Users\MBITA CDF\Desktop\Pythonapps\Foundation\FoundationSABP\FoundationSABP3\FoundationSABP3\obj\Debug\attach_server.py
+C:\Users\MBITA CDF\Desktop\Pythonapps\Foundation\FoundationSABP\FoundationSABP3\FoundationSABP3\obj\Debug\visualstudio_py_debugger.py
+C:\Users\MBITA CDF\Desktop\Pythonapps\Foundation\FoundationSABP\FoundationSABP3\FoundationSABP3\obj\Debug\visualstudio_py_repl.py
+C:\Users\MBITA CDF\Desktop\Pythonapps\Foundation\FoundationSABP\FoundationSABP3\FoundationSABP3\obj\Debug\visualstudio_py_util.py
+C:\Users\MBITA CDF\Desktop\Pythonapps\Foundation\FoundationSABP\FoundationSABP3\FoundationSABP3\obj\Debug\__init__.py
+C:\Users\MBITA CDF\Desktop\Pythonapps\Foundation\FoundationSABP\FoundationSABP3\FoundationSABP3\obj\Debug\__main__.py
+C:\Users\MBITA CDF\Desktop\Pythonapps\Foundation\FoundationSABP\FoundationSABP3\FoundationSABP3\bin\AzureSetup.cfg
+C:\Users\MBITA CDF\Desktop\Pythonapps\Foundation\FoundationSABP\FoundationSABP3\FoundationSABP3\bin\Microsoft.PythonTools.AzureSetup.exe
+C:\Users\MBITA CDF\Desktop\Pythonapps\Foundation\FoundationSABP\FoundationSABP3\FoundationSABP3\bin\Microsoft.PythonTools.AzureSetup.exe.config
+C:\Users\MBITA CDF\Desktop\Pythonapps\Foundation\FoundationSABP\FoundationSABP3\FoundationSABP3\bin\wfastcgi.py
+C:\Users\MBITA CDF\Desktop\Pythonapps\Foundation\FoundationSABP\FoundationSABP3\FoundationSABP3\obj\Debug\deployment-updated-orig-prefix.txt
+C:\Users\MBITA CDF\Desktop\Pythonapps\Foundation\FoundationSABP\FoundationSABP3\FoundationSABP3\ptvs_virtualenv_proxy.py
+C:\Users\MBITA CDF\Desktop\Pythonapps\Foundation\FoundationSABP\FoundationSABP3\FoundationSABP3\obj\Debug\web.config
+C:\Users\MBITA CDF\Desktop\Pythonapps\Foundation\FoundationSABP\FoundationSABP3\FoundationSABP3\obj\Debug\web.debug.config
+C:\xampp\htdocs\FoundationSABP3\FoundationSABP3\bin\Microsoft.PythonTools.WebRole.dll
+C:\xampp\htdocs\FoundationSABP3\FoundationSABP3\obj\Debug\attach_server.py
+C:\xampp\htdocs\FoundationSABP3\FoundationSABP3\obj\Debug\visualstudio_py_debugger.py
+C:\xampp\htdocs\FoundationSABP3\FoundationSABP3\obj\Debug\visualstudio_py_repl.py
+C:\xampp\htdocs\FoundationSABP3\FoundationSABP3\obj\Debug\visualstudio_py_util.py
+C:\xampp\htdocs\FoundationSABP3\FoundationSABP3\obj\Debug\__init__.py
+C:\xampp\htdocs\FoundationSABP3\FoundationSABP3\obj\Debug\__main__.py
+C:\xampp\htdocs\FoundationSABP3\FoundationSABP3\bin\AzureSetup.cfg
+C:\xampp\htdocs\FoundationSABP3\FoundationSABP3\bin\Microsoft.PythonTools.AzureSetup.exe
+C:\xampp\htdocs\FoundationSABP3\FoundationSABP3\bin\Microsoft.PythonTools.AzureSetup.exe.config
+C:\xampp\htdocs\FoundationSABP3\FoundationSABP3\bin\wfastcgi.py
+C:\xampp\htdocs\FoundationSABP3\FoundationSABP3\obj\Debug\deployment-updated-orig-prefix.txt
+C:\xampp\htdocs\FoundationSABP3\FoundationSABP3\ptvs_virtualenv_proxy.py
+C:\xampp\htdocs\FoundationSABP3\FoundationSABP3\obj\Debug\web.config
+C:\xampp\htdocs\FoundationSABP3\FoundationSABP3\obj\Debug\web.debug.config
