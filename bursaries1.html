@@ -1,0 +1,169 @@
+% rebase('layout.tpl', title='Home Page', year=year)
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+<style>
+body {
+    width: 5000px;
+}
+</style>
+ 
+<head>
+    <title>Sponsor a bright Program</title>
+    <link href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/static/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <link href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/static/css/bootstrap.css>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<body bgcolor="#E6E6FA">
+<div class="jumbotron">
+    <title>{{ title }} - Sponsor a Bright Program</title>
+    <link rel="stylesheet" type="text/css" href="/static/content/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/static/content/site.css" />
+    <script src="/static/scripts/modernizr-2.6.2.js"></script>
+    
+    <script src="/static/scripts/jquery-1.10.2.js"></script>
+    <script src="/static/scripts/bootstrap.js"></script>
+    <script src="/static/scripts/respond.js"></script>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="/" class="navbar-brand">Sponsor a Bright Program</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/home.html">Home</a></li>
+                    <li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/about.html">About</a></li>
+					<li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/projects.html">Projects</a></li>
+					<li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/donate.html">Donate</a></li>
+					<li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/login.html">Login</a></li>
+					<li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/register.html">Register</a></li>
+					<li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/casestudy.html">Case Study</a></li>
+					<li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/mobipal.html">Mobipal</a></li>
+					<li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/phone.html">Phone</a></li>
+					<li><a href="/C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/search.html">Search</a></li>
+					<li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/contactus.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+</head> 
+<body onload="document.registration.userid.focus();">
+<body bgcolor="#E6E6FA">
+<div class="jumbotron">
+ <div class="row">
+    <div class="col-md-10">
+<form class="form-horizontal" id="form_members" role="form" action="sendmembersdata.php" method="POST">
+<div class="container">
+<form class="form-horizontal" id="form_members" role="form">
+<legend>Contact Us</legend>
+<div class="form-group">
+    <label for="firstname" class="col-sm-2">First Name</label>
+    <div class="col-sm-2">
+    	<input type="text" class="form-control" name="firstname" id="firstname" placeholder="First Name">
+    </div>
+    <label for="lastname" class="col-sm-2">Last Name</label>
+    <div class="col-sm-2">
+    	<input type="text" class="form-control" name="lastname" id="lastname" placeholder="Last Name">
+    </div>
+</div>
+<div class="form-group">
+    <label for="projects" class="col-sm-2">Project of interest</label>
+    <div class="col-sm-2">
+        <label class="radio-inline">
+        <input type="radio" name="projects" id="ecde" value="ecde"> ECDE
+        </label>
+        <label class="radio-inline">
+        <input type="radio" name="projects" id="bursary" value="bursary"> Bursary
+        </label>
+        <label class="radio-inline">
+        <input type="radio" name="projects" id="health" value="health"> Healthcare
+        </label>
+        <label class="radio-inline">
+        <input type="radio" name="business" id="health" value="businesses"> Businesses
+        </label>
+    </div>
+    <label for="dob" class="col-sm-2">Date of Birth</label>
+    <div class="col-sm-2">
+        <input type="date" class="form-control" name="dob" id="dob" placeholder="mm/dd/yyyy">
+    </div>
+</div>
+<legend>Address</legend>
+<div class="form-group">
+    <label for="address" class="col-sm-2">Address</label>
+    <div class="col-sm-4">
+        <input type="text" class="form-control" name="address" id="address" placeholder="Street + No">
+    </div>
+    <label for="city" class="col-sm-2">City</label>
+    <div class="col-sm-4">
+    <input type="text" class="form-control" list="cities" name="city" id="city" placeholder="City">
+    <datalist id="cities">
+        <option value="Aquila">
+        <option value="Aosta">
+        <option value="Bari">
+        <option value="Venezia">
+    </datalist>
+    </div>
+</div>
+<div class="form-group">
+    <label for="zipcode" class="col-sm-2">ZIP Code</label>
+    <div class="col-sm-4">
+        <input type="text" class="form-control" name="zipcode" id="zipcode" placeholder="ZIP Code">
+    </div>
+    <label for="region" class="col-sm-2">Region</label>
+    <div class="col-sm-4">
+        <select class="form-control" name="region" id="region">
+            <option>Select a Region</option>
+            <option>Abruzzo</option>
+            <option>Aosta</option>
+            <option>Apulia</option>
+            <option>Veneto</option>
+        </select>
+    </div>
+</div>
+<legend>Contact Info</legend>
+<div class="form-group">
+    <label for="phone" class="col-sm-2">Phone</label>
+    <div class="col-sm-4">
+        <input type="tel" class="form-control" name="phone" id="phone" placeholder="Phone Number">
+    </div>
+    <label for="email" class="col-sm-2">Email</label>
+    <div class="col-sm-4">
+        <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+    </div>
+    <label for="message" class="col-sm-2">Message</label>
+    <div class="col-sm-4">
+    <textarea name="message">content</textarea>
+    </div>
+</div>
+<div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-warning" name="submit" id="submit">Submit</button>
+        <p><a class="btn btn-default" href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/addstudents.html">Add Student</a></p>
+      
+        </div>
+    </div>
+
+    <div class="container body-content">
+        <p>&copy; 2016 - Sponsor a Bright Program</p>
+        <hr />
+        <footer>
+            
+        </footer>
+    </div>
+
+    <script src="/static/scripts/jquery-1.10.2.js"></script>
+    <script src="/static/scripts/bootstrap.js"></script>
+    <script src="/static/scripts/respond.js"></script>
+</div>
+</div>     
+</form>
+</body>
+</html>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <title>agriculture</title>
+ 
+ 
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+ 
+ 
+</head>
+<form class="form-horizontal" id="form_members" role="form" action="sendfarmdata.php" method="POST">
+<div class="container">
+<form class="form-horizontal" id="form_members" role="form">
+<legend>Agriculture Management System</legend>
+<p>
+<div class="form-group">
+    <label for="firstname" class="col-sm-2">First Name</label>
+    <div class="col-sm-4">
+    	<input type="text" class="form-control" name="firstname" id="firstname" placeholder="First Name">
+    </div>
+</div>    
+</p>    
+<p>
+<div class="form-group">
+    <label for="lastname" class="col-sm-2">Last Name</label>
+    <div class="col-sm-4">
+    	<input type="text" class="form-control" name="lastname" id="firstname" placeholder="Last Name">
+    </div>
+</div>    
+</p>
+<p>
+<div class="form-group">
+    <label for="phoneno" class="col-sm-2">Phone no</label>
+    <div class="col-sm-4">
+    	<input type="text" class="form-control" name="phoneno" id="phoneno" placeholder="Phone no">
+    </div>
+</div>    
+</p>
+<p>
+<div class="form-group">
+    <label for="farmname" class="col-sm-2">Farm Name</label>
+    <div class="col-sm-4">
+    	<input type="text" class="form-control" name="farmname" id="farmname" placeholder="farmname">
+    </div>
+</div>
+</p>
+<p>
+<div class="form-group">
+    <label for="farmid" class="col-sm-2">Farm ID</label>
+    <div class="col-sm-4">
+    	<input type="text" class="form-control" name="farmid" id="farmid" placeholder="farmid">
+    </div>
+</div>
+</p>
+<p>
+    <label for="county" class="col-sm-2">County</label>
+    <div class="col-sm-4">
+    <input type="text" class="form-control" list="counties" name="county" id="city" placeholder="County">
+    <datalist id="counties">
+        <option value="Homabay">
+        <option value="Kisumu">
+        <option value="Siaya">
+        <option value="Migori">
+    </datalist>
+    </div>
+</div>
+</p>
+<p>
+    <label for="ward" class="col-sm-2">Ward</label>
+    <div class="col-sm-4">
+    <input type="text" class="form-control" list="wards" name="ward" id="ward" placeholder="Ward">
+    <datalist id="wards">
+        <option value="Homabay">
+        <option value="Kisumu">
+        <option value="Siaya">
+        <option value="Migori">
+    </datalist>
+    </div>
+</div>
+</p>
+<p>
+    <label for="crop1" class="col-sm-2">Crop1</label>
+    <div class="col-sm-4">
+    <input type="text" class="form-control" list="crops" name="crop1" id="crop1" placeholder="Crop1">
+    <datalist id="crops">
+        <option value="Maize">
+        <option value="Millet">
+        <option value="Soghum">
+        <option value="Sugarcane">
+    </datalist>
+    </div>
+</div>
+</p>
+<p>
+    <label for="crop1weight" class="col-sm-2">Crop1 Weight</label>
+    <div class="col-sm-4">
+    <input type="text" class="form-control" list="crops" name="crop1weight" id="crop1weight" placeholder="Crop1weight">
+    <datalist id="crops">
+        <option value="10kgs">
+        <option value="50kgs">
+        <option value="100kgs">
+        <option value="150kgs">
+    </datalist>
+    </div>
+</div>
+</p>
+<p>
+    <label for="crop2" class="col-sm-2">Crop2</label>
+    <div class="col-sm-4">
+    <input type="text" class="form-control" list="crops" name="crop2" id="crop2" placeholder="Crop2">
+    <datalist id="crops">
+        <option value="Maize">
+        <option value="Millet">
+        <option value="Soghum">
+        <option value="Sugarcane">
+    </datalist>
+    </div>
+</div>
+</p>
+<p>
+    <label for="crop2weight" class="col-sm-2">Crop2 Weight</label>
+    <div class="col-sm-4">
+    <input type="text" class="form-control" list="crops" name="crop2weight" id="crop2weight" placeholder="Crop2weight">
+    <datalist id="crops">
+        <option value="10kgs">
+        <option value="50kgs">
+        <option value="100kgs">
+        <option value="150kgs">
+    </datalist>
+    </div>
+</div>
+</p>
+<p>
+    <label for="crop1" class="col-sm-2">Crop3</label>
+    <div class="col-sm-4">
+    <input type="text" class="form-control" list="crops" name="crop3" id="crop3" placeholder="Crop3">
+    <datalist id="crops">
+        <option value="Maize">
+        <option value="Millet">
+        <option value="Soghum">
+        <option value="Sugarcane">
+    </datalist>
+    </div>
+</div>
+</p>
+<p>
+    <label for="crop1weight" class="col-sm-2">Crop3 Weight</label>
+    <div class="col-sm-4">
+    <input type="text" class="form-control" list="crops" name="crop3weight" id="crop3weight" placeholder="Crop3weight">
+    <datalist id="crops">
+        <option value="10kgs">
+        <option value="50kgs">
+        <option value="100kgs">
+        <option value="150kgs">
+    </datalist>
+    </div>
+</div>
+<p>
+    <label for="crop4" class="col-sm-2">Crop4</label>
+    <div class="col-sm-4">
+    <input type="text" class="form-control" list="crops" name="crop4" id="crop4" placeholder="Crop4">
+    <datalist id="crops">
+        <option value="Maize">
+        <option value="Millet">
+        <option value="Soghum">
+        <option value="Sugarcane">
+    </datalist>
+    </div>
+</div>
+</p>
+<p>
+    <label for="crop4weight" class="col-sm-2">Crop4 Weight</label>
+    <div class="col-sm-4">
+    <input type="text" class="form-control" list="crops" name="crop4weight" id="crop4weight" placeholder="Crop4weight">
+    <datalist id="crops">
+        <option value="10kgs">
+        <option value="50kgs">
+        <option value="100kgs">
+        <option value="150kgs">
+    </datalist>
+    </div>
+</div>
+</p>    
+<p>
+<p>
+    <label for="farmerid" class="col-sm-2">Farmer ID</label>
+    <div class="col-sm-4">
+    <input type="text" class="form-control" list="farmerids" name="farmerid" id="farmerid" placeholder="Farmer ID">
+    <datalist id="crops">
+        <option value="10kgs">
+        <option value="50kgs">
+        <option value="100kgs">
+        <option value="150kgs">
+    </datalist>
+    </div>
+</div>
+</p>    
+<p>
+    <label for="email" class="col-sm-2">Email</label>
+    <div class="col-sm-4">
+    <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+    </div>
+</div>
+</p>
+<p>
+    <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+    <button type="submit" class="btn btn-warning" name="submit" id="submit">Submit</button>
+    </div>
+</div>
+</p>
+</form>
+
+            </div>
+        </div> 
+    </div>
+</body>
+ 
+</html>

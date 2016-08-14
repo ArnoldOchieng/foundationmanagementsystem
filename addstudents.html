@@ -1,0 +1,299 @@
+% rebase('layout.tpl', title='Home Page', year=year)
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+<style>
+body {
+    width: 5000px;
+}
+</style>
+ 
+<head>
+    <title>Sponsor a bright Program</title>
+    <link href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/static/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <link href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/static/css/bootstrap.css>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<body bgcolor="#E6E6FA">
+<div class="jumbotron">
+    <title>{{ title }} - Sponsor a Bright Program</title>
+    <link rel="stylesheet" type="text/css" href="/static/content/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/static/content/site.css" />
+    <script src="/static/scripts/modernizr-2.6.2.js"></script>
+    
+    <script src="/static/scripts/jquery-1.10.2.js"></script>
+    <script src="/static/scripts/bootstrap.js"></script>
+    <script src="/static/scripts/respond.js"></script>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="/" class="navbar-brand">Sponsor a Bright Program</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/home.html">Home</a></li>
+                    <li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/about.html">About</a></li>
+					<li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/projects.html">Projects</a></li>
+					<li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/donate.html">Donate</a></li>
+					<li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/login.html">Login</a></li>
+					<li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/register.html">Register</a></li>
+					<li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/casestudy.html">Case Study</a></li>
+					<li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/mobipal.html">Mobipal</a></li>
+					<li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/phone.html">Phone</a></li>
+					<li><a href="/C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/search.html">Search</a></li>
+					<li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/contactus.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+</head> 
+<body onload="document.registration.userid.focus();">
+<body bgcolor="#E6E6FA">
+<div class="jumbotron">
+ <div class="row">
+    <div class="col-md-10">
+<form class="form-horizontal" id="form_members" role="form" action="sendmembersdata.php" method="POST">
+<div class="container">
+<form class="form-horizontal" id="form_members" role="form">
+<legend>Contact Us</legend>
+<div class="form-group">
+    <body>
+	<?php
+
+	// Connect to database server
+	mysql_connect("localhost", "root1", "password") or die (mysql_error ());
+
+	// Select database
+	mysql_select_db("students") or die(mysql_error());
+
+	// The SQL statement is built
+
+	$strSQL = "INSERT INTO studentdetails(";
+
+	$strSQL = $strSQL . "firstname, ";
+	$strSQL = $strSQL . "surname, ";
+
+	$strSQL = $strSQL . "othernames, ";
+	$strSQL = $strSQL . "phoneno, ";
+    
+    $strSQL = $strSQL . "nameofschool, ";
+	$strSQL = $strSQL . "classform, ";
+
+	$strSQL = $strSQL . "admno, ";
+	$strSQL = $strSQL . "annualfee, ";
+    
+    $strSQL = $strSQL . "bankname, ";
+	$strSQL = $strSQL . "accountname, ";
+
+	$strSQL = $strSQL . "accountno, ";
+	$strSQL = $strSQL . "branch ";
+    
+    $strSQL = $strSQL . "date) ";
+
+	$strSQL = $strSQL . "VALUES(";
+
+	$strSQL = $strSQL . "'Gus', ";
+
+	$strSQL = $strSQL . "'Goose', ";
+	$strSQL = $strSQL . "'99887766', ";
+    
+    $strSQL = $strSQL . "'Gus', ";
+
+	$strSQL = $strSQL . "'Goose', ";
+	$strSQL = $strSQL . "'99887766', ";
+    
+    $strSQL = $strSQL . "'Gus', ";
+
+	$strSQL = $strSQL . "'Goose', ";
+	$strSQL = $strSQL . "'99887766', ";
+    
+    $strSQL = $strSQL . "'Gus', ";
+
+	$strSQL = $strSQL . "'Goose', ";
+	$strSQL = $strSQL . "'99887766', ";
+
+	$strSQL = $strSQL . "'1964-04-20')";
+
+	// The SQL statement is executed 
+	mysql_query($strSQL) or die (mysql_error());
+
+	// Close the database connection
+	mysql_close();
+	?>
+
+	<h1>The database is updated!</h1>
+    </form>
+	</body>
+	</html>
+
+% rebase('layout.tpl', title='Home Page', year=year)
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+<style>
+body {
+    width: 5000px;
+}
+</style>
+ 
+<head>
+    <title>Sponsor a bright Program</title>
+    <link href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/static/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <link href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/static/css/bootstrap.css>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<body bgcolor="#E6E6FA">
+<div class="jumbotron">
+    <title>{{ title }} - Sponsor a Bright Program</title>
+    <link rel="stylesheet" type="text/css" href="/static/content/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/static/content/site.css" />
+    <script src="/static/scripts/modernizr-2.6.2.js"></script>
+    
+    <script src="/static/scripts/jquery-1.10.2.js"></script>
+    <script src="/static/scripts/bootstrap.js"></script>
+    <script src="/static/scripts/respond.js"></script>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="/" class="navbar-brand">Sponsor a Bright Program</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/home.html">Home</a></li>
+                    <li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/about.html">About</a></li>
+					<li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/projects.html">Projects</a></li>
+					<li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/donate.html">Donate</a></li>
+					<li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/login.html">Login</a></li>
+					<li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/register.html">Register</a></li>
+					<li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/casestudy.html">Case Study</a></li>
+					<li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/mobipal.html">Mobipal</a></li>
+					<li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/phone.html">Phone</a></li>
+					<li><a href="/C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/search.html">Search</a></li>
+					<li><a href="C:/xampp/htdocs/FoundationSABP3/FoundationSABP3/templates/contactus.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+</head> 
+<body onload="document.registration.userid.focus();">
+<body bgcolor="#E6E6FA">
+<div class="jumbotron">
+ <div class="row">
+    <div class="col-md-8">
+<form class="form-horizontal" id="form_members" role="form" action="addstudentdata.php" method="POST">
+<div class="container">
+<form class="form-horizontal" id="form_members" role="form">
+<legend>Add New Student</legend>
+<div class="form-group">
+    <label for="id" class="col-sm-2">ID</label>
+    <div class="col-sm-4">
+    	<input type="text" class="form-control" name="id" id="id" placeholder="id">
+    </div>
+    <label for="firstname" class="col-sm-2">First Name</label>
+    <div class="col-sm-4">
+    	<input type="text" class="form-control" name="firstname" id="firstname" placeholder="First Name">
+    </div>
+    <label for="surname" class="col-sm-2">Sur Name</label>
+    <div class="col-sm-4">
+    	<input type="text" class="form-control" name="surname" id="surname" placeholder="Sur Name">
+    </div>
+    <label for="othernames" class="col-sm-2">Other Names</label>
+    <div class="col-sm-4">
+    	<input type="text" class="form-control" name="othernames" id="othernames" placeholder="Other Names">  
+    </div>
+    <label for="phone" class="col-sm-2">Phone</label>
+    <div class="col-sm-4">
+    	<input type="text" class="form-control" name="phone" id="phone" placeholder="Phone">  
+    </div>
+    <label for="nameofschool" class="col-sm-2">School</label>
+    <div class="col-sm-4">
+    	<input type="text" class="form-control" name="nameofschool" id="nameofschool" placeholder="Name of School">  
+    </div>
+    <label for="classform" class="col-sm-2">Class or Form</label>
+    <div class="col-sm-4">
+    	<input type="text" class="form-control" name="classform" id="classform" placeholder="Class or Form">  
+    </div>    
+</div>
+</div>
+<div class="form-group">
+    <label for="gender" class="col-sm-2">Gender</label>
+    <div class="col-sm-4">
+        <label class="radio-inline">
+        <input type="radio" name="gender" id="male" value="male"> Male
+        </label>
+        <label class="radio-inline">
+        <input type="radio" name="gender" id="female" value="female"> Female
+        </label>
+    </div>
+    <label for="admno" class="col-sm-2">Admission No</label>
+    <div class="col-sm-4">
+    	<input type="text" class="form-control" name="admno" id="admno" placeholder="Admission No.">  
+    </div> 
+    <label for="annualfee" class="col-sm-2">Annual Fee</label>
+    <div class="col-sm-4">
+    	<input type="text" class="form-control" name="annualfee" id="annualfee" placeholder="Annual fee">  
+    </div>
+    <label for="bankname" class="col-sm-2">Bank Name</label>
+    <div class="col-sm-4">
+    	<input type="text" class="form-control" name="bankname" id="bankname" placeholder="Annual fee">  
+    </div>
+    <label for="accountname" class="col-sm-2">Account Name</label>
+    <div class="col-sm-4">
+    	<input type="text" class="form-control" name="accountname" id="accountname" placeholder="Account Name">  
+    </div>
+    <label for="accountno" class="col-sm-2">Account No.</label>
+    <div class="col-sm-4">
+    	<input type="text" class="form-control" name="accountno" id="accountno" placeholder="Account No">  
+    </div>
+    <label for="branch" class="col-sm-2">Branch</label>
+    <div class="col-sm-4">
+    	<input type="text" class="form-control" name="branch" id="branch" placeholder="Branch">  
+    </div>
+    <label for="date" class="col-sm-2">Date</label>
+    <div class="col-sm-4">
+        <input type="date" class="form-control" name="date" id="date" placeholder="mm/dd/yyyy">
+    </div>
+    <label for="email" class="col-sm-2">Email</label>
+    <div class="col-sm-4">
+    	<input type="text" class="form-control" name="email" id="email" placeholder="Email">  
+    </div>
+</div>
+<div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-warning" name="submit" id="submit">Submit</button>
+      
+        </div>
+    </div>
+</form>
+    <div class="container body-content">
+        <p>&copy; 2016 - Sponsor a Bright Program</p>
+        <hr />
+        <footer>
+            
+        </footer>
+    </div>
+
+    <script src="/static/scripts/jquery-1.10.2.js"></script>
+    <script src="/static/scripts/bootstrap.js"></script>
+    <script src="/static/scripts/respond.js"></script>
+</div>
+</div>     
+
+</body>
+</html>
